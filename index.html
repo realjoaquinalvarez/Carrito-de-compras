@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Tienda Minimalista</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Encabezado -->
+    <header>
+      <h1>Mi Tienda</h1>
+    </header>
+
+    <!-- Contenedor principal: dos columnas -->
+    <main class="container">
+      <!-- Sección de productos -->
+      <section class="products" id="products">
+        <!-- Ejemplo de producto dinámico -->
+        <!--
+        <div class="product-card">
+          <img src="./img/product-1.jpg" alt="Camiseta" />
+          <h3>Camiseta</h3>
+          <p>14.99€</p>
+          <button data-id="1">Comprar</button>
+        </div>
+        -->
+      </section>
+
+      <!-- Sección fija del carrito -->
+      <aside class="cart" id="cart">
+        <h2>Carrito</h2>
+        <!-- Lista de ítems del carrito -->
+        <div id="cartItems">
+          <!-- Ejemplo de ítem dinámico del carrito -->
+          <!--
+          <div class="cart-item">
+            <img src="./img/product-1.jpg" alt="Camiseta" />
+            <div class="cart-item-info">
+              <strong>Camiseta</strong>
+              <div class="cart-item-precio">14.99€</div>
+              <div class="cart-qty">
+                <button class="restar" data-id="1">-</button>
+                <span>1</span>
+                <button class="sumar" data-id="1">+</button>
+              </div>
+            </div>
+          </div>
+          -->
+        </div>
+
+        <!-- Total -->
+        <div id="cartTotal">Total: 0€</div>
+
+        <!-- Botón de comprar -->
+        <button id="btnCheckout">Comprar todo</button>
+      </aside>
+    </main>
+
+    <!-- Enlazamos el JS -->
+    <script src="script.js"></script>
+  </body>
+</html>
+      
